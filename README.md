@@ -65,3 +65,5 @@ void disenoApp(){
 
 ### Visualizacion en pantalla de Arduino
 
+![IMG_20191127_130447](https://user-images.githubusercontent.com/56893753/142349057-4db50f2b-043b-4d18-92d5-0552ba635182.jpg)
+
