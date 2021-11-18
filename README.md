@@ -5,6 +5,7 @@ Programa que sirve como herramienta de diseño para la pantalla TFT táctil 2.4 
 Esta aplicación la he usado en todos mis proyectos con Arduino, ya que para la mayoría utilizo muchas pantallas en las que navega el usuario, esta idea surge debido a que perdía mucho tiempo moviendo cada pixel, compilando y viendo como quedaba, si no me gustaba tocaba repetir de nuevo el proceso, por lo que, en el diseño de las ventanas gastaba mucho tiempo, el cual, podría ser aprovechado en mejorar la parte lógica de la aplicación.
 
 ## Interfaz
+![image](https://user-images.githubusercontent.com/56893753/142348819-1e405afc-b51e-465e-a1da-0f0fe18725dc.png)
 
 ## Prueba de funcionamiento
 
@@ -13,6 +14,7 @@ Esta aplicación la he usado en todos mis proyectos con Arduino, ya que para la 
 
 ### Codigo arrojado por la aplicacion
 
+```
 void disenoApp(){ 
     tft.drawRect(12,15,138,72,BLACK);
     tft.drawRect(12,138,138,72,BLACK);
@@ -58,6 +60,8 @@ void disenoApp(){
     tft.drawLine(2,3,5,1,BLACK);
 
 }
+
+```
 
 ### Visualizacion en pantalla de Arduino
 
